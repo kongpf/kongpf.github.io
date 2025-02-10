@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇游戏</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="scorePanel">
+            <div id="currentScore">得分: 0</div>
+            <div id="progressContainer">
+                <div id="progressBar"></div>
+            </div>
+            <div id="targetScore">目标: 100分</div>
+        </div>
+        <div id="startScreen">
+            <div class="game-title">贪吃蛇</div>
+            <div class="game-logo">
+                <img src="images/head1.png" alt="Snake Logo" class="logo-image">
+            </div>
+            <button id="startButton">开始游戏</button>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <div id="gameInstructions">
+        <h3>游戏玩法说明</h3>
+        <p>1. 控制蛇移动收集宝石，每收集一颗宝石会增加一节蛇身。</p>
+        <p>2. 三个相同颜色的蛇身相连时会自动消除，获得额外分数。</p>
+        <p>3. 达到目标分数即可获胜，撞到墙壁或自身则游戏结束。</p>
+        <div class="control-info">
+            <span>控制方式：</span>
+            <span class="key-icon">↑↓←→</span>
+            <span>方向键或</span>
+            <span>触摸/鼠标</span>
+            <span>控制移动方向</span>
+        </div>
+    </div>
+    <script type="module" src="js/game.js"></script>
+</body>
+</html>
