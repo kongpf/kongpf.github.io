@@ -1,1 +1,1 @@
-console.log("初始化脚本")
+console.log("01203")
