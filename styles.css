@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #FF7F50; /* 温暖的珊瑚色 */
-    --secondary-color: #2C3E50; /* 深蓝色 */
-    --accent-color: #E67E22; /* 暖橙色 */
+    --primary-color: #50d6ff; /* 温暖的珊瑚色 */
+    --secondary-color: #116fcc; /* 深蓝色 */
+    --accent-color: #03a7f3; /* 暖橙色 */
     --background-color: #FFF9F5; /* 温暖的白色 */
     --text-color: #333333;
     --section-padding: 80px 0;
@@ -41,7 +41,7 @@ nav {
 }
 
 .logo img {
-    height: 40px;
+    height: 60px;
     transition: transform 0.3s ease;
 }
 
