@@ -1015,7 +1015,7 @@ a:not(.cta-button):not(.play-button):not(.social-link):not(.read-more):not(nav a
 }
 
 .game-container {
-    width: min(90vw, 90vh);
+    width: min(48vw, 48vh);
     height: min(90vw, 90vh);
     max-width: 800px;
     max-height: 800px;
@@ -1058,7 +1058,7 @@ a:not(.cta-button):not(.play-button):not(.social-link):not(.read-more):not(nav a
 /* 移动端适配 */
 @media (max-width: 768px) {
     .game-container {
-        width: 95vw; /* 在移动端略微增加宽度占比 */
+        width: 95vw; 
         height: 95vw;
     }
 }
